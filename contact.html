@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Lenka Lorien</title>
+  <meta name="description" content="Get in touch with Lenka Lorien. Send a message, book a consultation, or ask about workshops and retreats.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-brand"><a href="index.html" class="logo">Lenka Lorien</a></div>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="blog.html" class="nav-link">Insights</a></li>
+        <li><a href="contact.html" class="nav-link cta active">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section" style="background: #f0f7f4;">
+      <h1>Get in Touch</h1>
+      <p style="font-size: 1.1rem; color: #666; text-align: center; max-width: 750px; margin: 0 auto;">Whether you want to book a session, ask about workshops, or just have questions — I'm here to listen.</p>
+    </section>
+
+    <section class="section">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; max-width: 1000px; margin: 0 auto;">
+        <!-- Contact Form -->
+        <div>
+          <h2>Send a Message</h2>
+          <form id="contact-form" name="contact" method="POST" netlify>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone (optional)</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+              <label for="subject">What's this about?</label>
+              <select id="subject" name="subject" required style="width: 100%; padding: 0.85rem; border: 1px solid #ddd; border-radius: 10px; font-family: inherit; font-size: 1rem;">
+                <option value="">— Select —</option>
+                <option value="booking">I'd like to book a session</option>
+                <option value="workshop">I'm interested in a workshop</option>
+                <option value="retreat">Tell me about the India retreat</option>
+                <option value="corporate">Corporate wellness inquiry</option>
+                <option value="question">I have a question</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div style="background: #f0f7f4; padding: 2rem; border-radius: 10px;">
+          <h2 style="margin-top: 0;">Other Ways to Reach Me</h2>
+
+          <div style="margin-bottom: 2rem;">
+            <h3 style="color: #123C32; font-size: 1rem; margin-bottom: 0.5rem;">📱 WhatsApp</h3>
+            <p style="color: #666; margin: 0;"><a href="https://wa.me/447717636322" style="color: #123C32; text-decoration: none; font-weight: 600;">+44 7717 636322</a></p>
+            <p style="font-size: 0.9rem; color: #999; margin: 0.5rem 0 0;">Fastest way to reach me for quick questions or to arrange a call.</p>
+          </div>
+
+          <div style="margin-bottom: 2rem;">
+            <h3 style="color: #123C32; font-size: 1rem; margin-bottom: 0.5rem;">✉️ Email</h3>
+            <p style="color: #666; margin: 0;"><a href="mailto:lendula72@gmail.com" style="color: #123C32; text-decoration: none; font-weight: 600;">lendula72@gmail.com</a></p>
+            <p style="font-size: 0.9rem; color: #999; margin: 0.5rem 0 0;">For detailed inquiries or if you prefer email.</p>
+          </div>
+
+          <div style="margin-bottom: 2rem;">
+            <h3 style="color: #123C32; font-size: 1rem; margin-bottom: 0.5rem;">📅 Online Booking</h3>
+            <p style="color: #666; margin: 0;"><a href="https://book.com/lenka.kolarova" style="color: #123C32; text-decoration: none; font-weight: 600;" target="_blank" rel="noopener">book.com/lenka.kolarova</a></p>
+            <p style="font-size: 0.9rem; color: #999; margin: 0.5rem 0 0;">Schedule your free consultation directly online.</p>
+          </div>
+
+          <div style="border-top: 1px solid #ddd; padding-top: 2rem;">
+            <h3 style="color: #123C32; font-size: 1rem; margin-bottom: 0.5rem;">📍 Location</h3>
+            <p style="color: #666; margin: 0;"><strong>May–October:</strong> Prague, Czech Republic</p>
+            <p style="color: #666; margin: 0.5rem 0 0;"><strong>November–April:</strong> India (retreat facilitation)</p>
+            <p style="font-size: 0.9rem; color: #999; margin: 0.5rem 0 0;">Sessions available online year-round.</p>
+          </div>
+
+          <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #ddd;">
+            <p style="color: #666; font-size: 0.9rem; margin: 0;"><strong>Response time:</strong> I typically reply within 24 hours. WhatsApp is usually fastest.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: #f0f7f4;">
+      <h2>Frequently Asked Questions</h2>
+      <div style="max-width: 800px; margin: 0 auto;">
+        <div style="margin-bottom: 2rem;">
+          <h3 style="color: #123C32; font-size: 1.1rem;">Is it OK if I've never done this before?</h3>
+          <p style="color: #666;">Absolutely. There's no experience needed. We start exactly where you are, and I'll guide you through everything. Many of my clients had never heard of somatic work before their first session.</p>
+        </div>
+
+        <div style="margin-bottom: 2rem;">
+          <h3 style="color: #123C32; font-size: 1.1rem;">How often should I come?</h3>
+          <p style="color: #666;">That depends on what you're working with. Some people come weekly for a period of time, others monthly. We'll talk about what makes sense for your situation and goals. There's no "should" — only what feels right for you.</p>
+        </div>
+
+        <div style="margin-bottom: 2rem;">
+          <h3 style="color: #123C32; font-size: 1.1rem;">What if I'm not in Prague?</h3>
+          <p style="color: #666;">All sessions are available online. Somatic work translates beautifully to video sessions — I can guide you through the work from anywhere, and you can remain in your own safe space at home.</p>
+        </div>
+
+        <div style="margin-bottom: 2rem;">
+          <h3 style="color: #123C32; font-size: 1.1rem;">What should I wear?</h3>
+          <p style="color: #666;">Comfortable clothes — anything you can move and breathe in. For craniosacral work, you'll stay fully clothed; there's no massage oil or disrobing.</p>
+        </div>
+
+        <div>
+          <h3 style="color: #123C32; font-size: 1.1rem;">Do you work with children?</h3>
+          <p style="color: #666;">Yes, I have special training in working with children and teenagers. Sessions are adapted to their age, developmental stage, and needs.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Lenka Lorien. Prague-based somatic therapist and craniosacral practitioner.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

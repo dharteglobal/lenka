@@ -1,0 +1,38 @@
+{
+  "slug": "lenka-lorien-kolarova",
+  "handle": "lenka",
+  "name": "Lenka Lorien",
+  "email": "lendula72@gmail.com",
+  "image": "/images/practitioners/lenka/lenka-lorien.jpg",
+  "bio": "Lenka Lorien is a therapist dedicated to supporting individuals on their journey toward greater wholeness and self-understanding. She creates a safe and respectful space where clients can explore their inner world at their own pace, with an emphasis on trust, acceptance, and realistic expectations.\n\nShe integrates approaches such as Somatic Experiencing and hypnotherapy, working with the connection between body and mind in the healing of trauma, stress, and difficult life experiences. Her focus is on stabilizing the nervous system and helping clients reconnect with their inner resources.\n\nLenka works with all age groups — from adults to children, as well as mothers and babies — and brings over 15 years of experience to her practice. She also offers online sessions, making her support accessible regardless of location.\n\nFrom May to October, she provides in-person craniosacral therapy sessions in Prague. From November to April, she leads and organises Ayurvedic retreats in India, creating spaces for deep rest, regeneration, and holistic healing. She also facilitates healing workshops — including craniosacral therapy, Thai massage, and Somatic Experiencing — which can be organised internationally.\n\nHer work is especially attuned to those navigating long-term or complex healing processes, encouraging personal responsibility while offering steady and compassionate guidance.",
+  "credentials": [
+    "Biodynamic Craniosacral Therapy (BCSt.) — since 2009",
+    "Somatic Experiencing® (SE) — certified practitioner",
+    "Hypnotherapy",
+    "Thai Massage",
+    "Ayurvedic wellness & retreat facilitation"
+  ],
+  "services": [
+    "Individual somatic sessions",
+    "Craniosacral therapy",
+    "Workshops & corporate wellness",
+    "Children & family sessions",
+    "Ayurvedic retreats (India, Nov–Apr)"
+  ],
+  "location": {
+    "city": "Prague",
+    "country": "Czech Republic",
+    "online": true
+  },
+  "availability": {
+    "may_october": "Prague, in-person + online",
+    "november_april": "India retreats + online"
+  },
+  "contact": {
+    "email": "lendula72@gmail.com",
+    "whatsapp": "+44 7717 636322"
+  },
+  "booking_link": "https://book.com/lenka.kolarova",
+  "profile_url": "https://dharte.com/lenka",
+  "languages": ["Czech", "English"]
+}

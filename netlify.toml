@@ -1,0 +1,31 @@
+# Netlify configuration for Lenka Lorien website
+
+[build]
+  # No build step needed for static HTML site
+  command = ""
+  publish = "."
+
+[[redirects]]
+  # Redirect www to non-www
+  from = "https://www.lenkalorien.cz/*"
+  to = "https://lenkalorien.cz/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  # Fallback for 404s
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[context.production]
+  environment = { ENV = "production" }
+
+[context.develop]
+  environment = { ENV = "develop" }
+
+[context.deploy-preview]
+  environment = { ENV = "preview" }
+
+# Contact form handling via Netlify Forms
+# Just add name="contact" netlify to your form, no backend needed
